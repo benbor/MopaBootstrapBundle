@@ -23,9 +23,10 @@ Templates
 
 Have a look at the provided [base.html.twig](https://github.com/phiamo/MopaBootstrapBundle/blob/master/Resources/views/base.html.twig) its a fully working bootstrap layout for usage without less or sass, and might explain howto use it by itself.
 
-There is also a [base_less.html.twig](https://github.com/phiamo/MopaBootstrapBundle/blob/master/Resources/views/base_less.html.twig) its layout whis less.
+There is also a [base_less.html.twig](https://github.com/phiamo/MopaBootstrapBundle/blob/master/Resources/views/base_less.html.twig) its layout is less.
 
-There is also a [base_sass.html.twig](https://github.com/phiamo/MopaBootstrapBundle/blob/master/Resources/views/base_sass.html.twig) its layout whis sass.
+There is also a [base_sass.html.twig](https://github.com/phiamo/MopaBootstrapBundle/blob/master/Resources/views/base_sass.html.twig) its layout is sass.
+- (If you are using Bootstrap 3.2 for SASS please use base_sass_3.2.html.twig)
 
 There is also a [base_lessjs.html.twig](https://github.com/phiamo/MopaBootstrapBundle/blob/master/Resources/views/base_lessjs.html.twig) with clientside less.js. This is currently not recommended, because you need to setup bootstrap and the less files to use it yourself.
 
@@ -72,11 +73,11 @@ If you are using Sass just include your.scss instead
 {% endstylesheets %}
 ```
 
-Depending on where you your bundle exacly resides (e.g. Your\Smthbundle or Your\Bundle\SmthBundle)
+Depending on where your bundle exacly resides (e.g. Your\Smthbundle or Your\Bundle\SmthBundle)
 you need to adapt the path ( ../ ):
 
 ``` css
-// Getting the whole mopabootstrapbundle.less 
+// Getting the whole mopabootstrapbundle.less
 @import "../../../../../../../../mopa/bootstrap-bundle/Mopa/Bundle/BootstrapBundle/Resources/public/less/mopabootstrapbundle.less";
 
 // same for scss files
@@ -103,3 +104,7 @@ make
 ```
 
 if it doesnt work, why not use the less or sass way?
+
+---
+
+<< [Installation](https://github.com/phiamo/MopaBootstrapBundle/blob/master/Resources/doc/1-installation.md) | [Form Extensions](https://github.com/phiamo/MopaBootstrapBundle/blob/master/Resources/doc/3-form-extension-templates.md) >>

@@ -1,5 +1,5 @@
-Generating a Navbars
-====================
+Generating a Navbar
+===================
 
 # Navbar and Menus Extension
 
@@ -28,7 +28,7 @@ mopa_bootstrap:
 
 ## Auto bootstrap menu
 
-By adding "automenu" : "navbar" or "automenu": "pill" you can use mopa_boostrap_menu to generate bootstrap3 markup even if your underlying menu doesnt have special menu options or class attributes etc
+By adding "automenu" : "navbar" or "automenu": "pills" you can use mopa_boostrap_menu to generate bootstrap3 markup even if your underlying menu doesnt have special menu options or class attributes etc
 
 ```
 {{ mopa_bootstrap_menu('mymenu', {'automenu': 'navbar'}) }}
@@ -141,3 +141,7 @@ Now embed that in your template instead:
     {% endblock %}
 {% endembed %}
 ```
+
+---
+
+<< [Form Components](https://github.com/phiamo/MopaBootstrapBundle/blob/master/Resources/doc/3.3-form-components.md) | [Bootstrap Extras (Initializr)](https://github.com/phiamo/MopaBootstrapBundle/blob/master/Resources/doc/50-initializr.md) >>

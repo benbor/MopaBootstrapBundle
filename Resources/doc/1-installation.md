@@ -61,7 +61,7 @@ Installation
             "knplabs/knp-paginator-bundle": "dev-master",
             "knplabs/knp-menu-bundle": "dev-master",
             "knplabs/knp-menu": "2.0.*@dev",
-            "craue/formflow-bundle": "dev-master"
+            "craue/formflow-bundle": "~2.0"
        }
     }
     ```
@@ -136,7 +136,7 @@ Installation
                "twbs/bootstrap-sass": "dev-master",
                "knplabs/knp-paginator-bundle": "dev-master",
                "knplabs/knp-menu-bundle": "dev-master",
-               "craue/formflow-bundle": "dev-master"
+               "craue/formflow-bundle": "~2.0"
            }
        }
     ```
@@ -193,3 +193,6 @@ Installation
             template: MyBundles:Menu:template.html.twig
     ```
 
+---
+
+[Using bootstrap in the layout](https://github.com/phiamo/MopaBootstrapBundle/blob/master/Resources/doc/2-base-templates.md) >>

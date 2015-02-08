@@ -30,7 +30,8 @@ mopa_bootstrap:
         render_collection_item: true # default is true
         show_legend: true # default is true
         show_child_legend: false # default is false
-        render_required_asterisk: true # default is true
+        render_required_asterisk: true # default is false
+        render_optional_text: false # default is true
         checkbox_label: 'both' # default is both (label|widget|both)
         error_type: 'block' # default is null
         collection:
@@ -310,4 +311,6 @@ Look into the more detailed doc:
 
 https://github.com/phiamo/MopaBootstrapBundle/blob/master/Resources/doc/3.1-form-collections.md
 
+---
 
+<< [Using bootstrap in the layout](https://github.com/phiamo/MopaBootstrapBundle/blob/master/Resources/doc/2-base-templates.md) | [Form Collections](https://github.com/phiamo/MopaBootstrapBundle/blob/master/Resources/doc/3.1-form-collections.md) >>
